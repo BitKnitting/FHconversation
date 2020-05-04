@@ -1,0 +1,60 @@
+I:info
+T:What would you like to know more about?
+C:My impact 
+C: US impact
+C:No thanks
+C: FitHome savings
+I:default_welcome_monitor_fallback
+T:I didn’t understand what you said.  I can help you with seeing how much electricity you use compared to others in the class, start an activity that will lower your electricity use, or give you info on why you want to save electricity. If you don’t want to do any of these things, just say bye to end the conversation.
+C:Compare
+C:Info
+C:Bye
+C:Activity 
+I:exit
+T:Bye for now.  If you want to talk again, just say “OK Google, Talk to FitHome.”
+I:default_welcome_back
+T:Welcome back.  What would you like to do?
+C:Get Started
+C:Learn More
+C:End Conversation
+T:Nice to see you again.  Choose what you’d like to do.
+I:default_welcome_monitor
+T:Hey Vera, choose what you want to do.
+C:Compare
+T: Good to see you again Vera.  What do you want to do?
+T: Hope all is well Vera.  Please let me know what you’d like to do.
+T: Nice to see you again Vera.  Please choose what you’d like to do.
+T0: Hi Vera.  I’ve got a few things you can do.  You can compare your readings with other students, you can start an simple activity to lower your electricity use, or get more information on your electricity use.  Please let me know what you want to do.
+C:End Conversation
+C:Info
+C:Activity
+I:compare_readings
+T:It looks like you use more electricity than Byron or Thor.  Would you like to start an activity to lower your electricity use, or get info on why you want to save electricity?  If you don’t want to do these things, just say bye to end the conversation.
+TA: Vera,26
+TA: Thor, 25.3
+TA: Byron, 24.1
+C:Info
+C:Bye
+C:Activity 
+Q_1:Have email?
+NO 
+I:Default Welcome
+T:Thanks for joining our FitHome class.   For the next two weeks, we’ll be significantly lowering the amount of electricity being used in our homes.  From the choices below, what would you like to do?
+C:Get Started
+C:Learn More
+C:End Conversation
+I:activity
+T:So far you have not saved any electricity.  There are several activities we could do that will lower the amount of electricity being used.
+C: Lower always on 
+C: Get an energy audit
+C:No thanks
+C: Add wool balls to dryer
+Q_0: First Time?
+NO
+NO
+“TALK TO FITHOME”
+YES
+didn’t understand (fallback)
+exit
+Go to Exit intent
+YES
