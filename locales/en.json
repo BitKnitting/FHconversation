@@ -1,0 +1,6 @@
+{
+  "WELCOME_NEW_TEXT": "Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity to lower your  electricity use.  What would you like to do?",
+  "WELCOME_NEW_SPEECH": "Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity that will lower your use.  <break time='.5' /> What would you like to do.",
+  "WELCOME_BACK_TEXT": "Welcome back. Would you like to see how much electricity you are using or do an activity to lower your use?",
+  "WELCOME_BACK_SPEECH": "Welcome back. Would you like to see how much electricity you are using<break time='.5' /> or do an activity to lower your use?."
+}

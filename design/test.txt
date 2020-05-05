@@ -1,7 +1,5 @@
-T:”WELCOME_NEW_TEXT”:”Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity to lower your  electricity use.  What would you like to do?”
-T:”WELCOME_NEW_SPEECH”:”Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity that will lower your use.  <break time='.5' /> What would you like to do.”
-I:default_welcome_back
-T:Welcome back $first_name 
+T: "WELCOME_NEW_TEXT": "Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity to lower your  electricity use.  What would you like to do?"
+T: "WELCOME_NEW_SPEECH":"Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity that will lower your use.  <break time='.5' /> What would you like to do."
 C:Compare
 C: Lower
 Q: Last Seen?
