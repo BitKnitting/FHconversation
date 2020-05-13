@@ -1,9 +1,59 @@
-T: "WELCOME_NEW_TEXT": "Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity to lower your  electricity use.  What would you like to do?"
-T: "WELCOME_NEW_SPEECH":"Welcome to your FitHome class.  I can show you how much electricity you use  or we can do an activity that will lower your use.  <break time='.5' /> What would you like to do."
-C:Compare
-C: Lower
-Q: Last Seen?
-Q: Have email?
-Google helper to get email
-NO 
+T:"MY_IMPACT_TEXT": "You are doing great! You have planted 1,000 trees with the electricity you have saved." 
+T:"MY_IMPACT_SPEECH":"TBD..."
+da
+NO
+NO
 YES
+FAQ
+SignIn
+SignIn
+GA Sign In
+YES
+Sign In
+ranking/social/gaming
+GOOGLE_ASSISTANT_WELCOME
+OPENING
+ACTIVITY
+NO
+MY_RESULTS
+ACTIVIty
+activities
+impact
+details
+what to do
+info
+T: "ACTIVITY_TEXT":"NOT IMPLEMENTED"
+T: "ACTIVITY_SPEECH":"NOT IMPLEMENTED."
+T: "WELCOME_NEW_SPEECH":"Welcome to your FitHome class.  To get started, you need to sign in or I can give you more info about what the class is about.  <break time='300ms' /> What would you like to do."
+T: "WELCOME_NEW_TEXT": "Welcome to your FitHome class.  To get started, you need to sign in or I can give you more info about what the class is about.  What would you like to do?"
+NO 
+YES 
+Q: Last Seen?
+T:"WELCOME_BACK_TEXT": "Welcome back. Please sign in to start the class. "
+T: "WELCOME_BACK_SPEECH":"Welcome back.  <break time='300ms' /> Please sign in to start the class. "
+T:"MY_RANKING_PRE_TEXT": "Looks like you are using the most electricity. "
+T:"MY_RANKING_PRE_SPEECH":"TBD..."
+Show table of class ranking
+asdf 
+"WELCOME_BACK_HAVE_EMAIL_TEXT": WELCOME_BACK_PREFIX + first_name +"."+ MY_RANKING_TEXT OR MY_IMPACT_TEXT OR INFO_TEXT
+Show table of class ranking
+INFO_PRE_TEXT + WHAT_TO_DO_TEXT
+T: "INFO_SPEECH":"NOT IMPLEMENTED."
+T:"INFO_PRE_TEXT":["Did you know in the use we use 350% more electricity on average than the rest of the world?","If we all saved 15% electricity, 6 lives would be saved every day.","If we all saved 15% electricity, there would be 30,000 fewer asthma attacks.","The FitHome class motivates you to use 15% less electricity.","Saving 15% reduces an electricity bill by an average of $200 per year."]
+T: "INFO__PRE_SPEECH":"NOT IMPLEMENTED."
+T:"DETAILS_TEXT": ["We've been collecting readings for 5 days.","We have 5 days worth of readings.","These results are based on 5 days worth of readings."] 
+T:"DETAILS_SAVINGS": ["You've completed two activities. You can look at your impact if you'd like.","You can look at the impact the two activities you have completed have made.  Would you like to do that?"] 
+T:"DETAILS_SPEECH":".."
+Show table of details
+Avg Daily kWh   Amount of Always On   Amount of electricity you have Saved -> goes to equivalencies  Hour of day at highest readings  Day with least amount of electricity is used   Day when most amount of electricity is used
+MY_RANKING_PRE_TEXT + WHAT_TO_DO_TEXT
+T:"MY_RANKING_SPEECH":"TBD..."
+Show table of class ranking
+asdf
+Invoke the Google helper for signin.  This gets us the guest's email, first name, last name, and profile picture.  Currently, we assume a Google account.
+T:"ACTIVITY_OR_RESULT_PHRASES": ["Say 'how am I doing' or 'do an activity'.","Would you like to do an activity or view your results?","I can help you do an activity or you can see your results."]
+T: "WHAT_TO_DO_TEXT":["Would you like to do an activity?","Would you like to see details of your electricity use?","Would you like to see how you rank within your class?"]
+T: "WHAT_TO_DO_SPEECH":"NOT IMPLEMENTED."
+T:"WELCOME_BACK_PREFIX": ["Welcome back, ", "Good to see you ","Hi, ","Glad you are back, "]
+asdf
+Q: Have email?
