@@ -1,49 +1,67 @@
 {
-  "MY_IMPACT_TEXT": "You are doing great! You have planted 1,000 trees with the electricity you have saved.",
-  "MY_IMPACT_SPEECH": "TBD...",
-  "ACTIVITY_TEXT": "NOT IMPLEMENTED",
+  "ACTIVITY_TEXT": [
+    "Based on your electricity use, I recommend we start with minimizing the Always On electricity.  You could save about 17% electricity by doing this activity.  Would you like to do this activity?",
+    "Dryers can use a lot of electricity.  Lowering the amount of electricity a dryer uses is a very simple activity.  Would you like to do this activity?",
+    "Thor recommends getting an electricity audit.  Would you like to do this activity?"
+  ],
   "ACTIVITY_SPEECH": "NOT IMPLEMENTED.",
+  "WHAT_TO_DO_TEXT": [
+    "I can help you do an activity or show your electricity use.",
+    "Say 'ACTIVITY' to do an activity.",
+    "Say 'DETAILS' to see details of your electricity use.",
+    "Say 'RANK' to see how you are doing compared to your classmates.",
+    "Say 'INFO' to find out more about the impact you make when you save electricity.",
+    "Say 'how am I doing' or 'do an activity'."
+  ],
+  "WHAT_TO_DO_SPEECH": "NOT IMPLEMENTED.",
   "WELCOME_NEW_SPEECH": "Welcome to your FitHome class.  To get started, you need to sign in or I can give you more info about what the class is about.  <break time='300ms' /> What would you like to do.",
   "WELCOME_NEW_TEXT": "Welcome to your FitHome class.  To get started, you need to sign in or I can give you more info about what the class is about.  What would you like to do?",
+  "SUGGESTION_CHIPS": [
+    "Information",
+    "Electricity Use",
+    "Do Activity",
+    "Your Impact",
+    "Class Rank",
+    "Bye"
+  ],
+  "TODO_IMPACT": [
+    "Would you like to see the impact your electricity savings have made?",
+    "Say 'IMPACT' to find out more about the impact you are making."
+  ],
   "WELCOME_BACK_TEXT": "Welcome back. Please sign in to start the class. ",
   "WELCOME_BACK_SPEECH": "Welcome back.  <break time='300ms' /> Please sign in to start the class. ",
-  "MY_RANKING_PRE_TEXT": "Looks like you are using the most electricity. ",
-  "MY_RANKING_PRE_SPEECH": "TBD...",
-  "INFO_SPEECH": "NOT IMPLEMENTED.",
-  "INFO_PRE_TEXT": [
+  "MY_RANKING_TEXT": "Byron is using the least amount of energy.  You are coming in 3rd.  You are only a few kilowatt hours from passing Thor.",
+  "MY_RANKING_SPEECH": "TBD...",
+  "NOT_IMPLEMENTED": "Have not yet implemented this part of the conversation.",
+  "FALLBACKPROMPT_1": "Sorry, I didn't quite get that. I can help you reduce your electricity use, show you how you are using electricity, give more info on why saving electricity is good for your health and saves you money, or show you how well you are doing compared to the rest of the class.",
+  "FALLBACKPROMPT_2_TEXT": "Sorry, I still didn't get that.  I can help you reduce your electricity use, or if you're finished just say 'goodbye'.",
+  "FALLBACKPROMPT_2_SPEECH": "Sorry, I still didn't get that.  I can help you reduce your electricity use, or if you're finished just say 'goodbye'.",
+  "FALLBACKPROMPT_FINAL": "I'm sorry I'm having trouble.  Let's stop here for now.  Goodbye.",
+  "INFO_TEXT_LIST": [
     "Did you know in the use we use 350% more electricity on average than the rest of the world?",
     "If we all saved 15% electricity, 6 lives would be saved every day.",
     "If we all saved 15% electricity, there would be 30,000 fewer asthma attacks.",
     "The FitHome class motivates you to use 15% less electricity.",
     "Saving 15% reduces an electricity bill by an average of $200 per year."
   ],
-  "INFO__PRE_SPEECH": "NOT IMPLEMENTED.",
-  "DETAILS_TEXT": [
-    "We've been collecting readings for 5 days.",
-    "We have 5 days worth of readings.",
-    "These results are based on 5 days worth of readings."
-  ],
-  "DETAILS_SAVINGS": [
-    "You've completed two activities. You can look at your impact if you'd like.",
-    "You can look at the impact the two activities you have completed have made.  Would you like to do that?"
-  ],
-  "DETAILS_SPEECH": "..",
-  "MY_RANKING_SPEECH": "TBD...",
-  "ACTIVITY_OR_RESULT_PHRASES": [
-    "Say 'how am I doing' or 'do an activity'.",
-    "Would you like to do an activity or view your results?",
-    "I can help you do an activity or you can see your results."
-  ],
-  "WHAT_TO_DO_TEXT": [
-    "Would you like to do an activity?",
-    "Would you like to see details of your electricity use?",
-    "Would you like to see how you rank within your class?"
-  ],
-  "WHAT_TO_DO_SPEECH": "NOT IMPLEMENTED.",
+  "INFO__SPEECH": "NOT IMPLEMENTED.",
+  "FAREWELL": ["See you next time!", "Talk to you soon!"],
   "WELCOME_BACK_PREFIX": [
     "Welcome back, ",
     "Good to see you ",
     "Hi, ",
     "Glad you are back, "
+  ],
+  "HELP_TEXT": "You can do activities to lower your electricity use, I can show you details of your electricity use, give more info on what impact saving electricity has, or show where you are completing class activities.  What would you like to do?",
+  "HELP_SPEECH": "NOT IMPLEMENTED.",
+  "IMPACT_TEXT": [
+    "You are doing great! You've planted 1,000 trees based on the amount of electricity you have saved.",
+    "You will save $200 a year off your electricity bill.",
+    "You've saved the equivalent of 20 barrels of oil."
+  ],
+  "TODO_RANK": [
+    "Say 'RANK' to see how you are doing compared to your classmates.",
+    "I can show you how you are doing relative to your classmates.",
+    "Would you like to know your class rank?"
   ]
 }

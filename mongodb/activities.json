@@ -1,0 +1,25 @@
+[
+  {
+    "name": "alwayson",
+    "description": "Always On electricity is the electricity used by devices when they are not being used.",
+    "details": "A typical home in the US wastes about 23% of their electricity because their devices are drawing electricity even when they are not being used.",
+    "debug": "Identify plugs that have many devices plugged into them...TV, computers.  Buy Timer plugs.",
+    "fix": "Set timer plugs to shut off electricity during the hours your not using the devices.",
+    "rank": "best"
+  },
+  {
+    "name": "woolballs",
+    "description": "Less electricity is needed to dry clothes when there are wool balls in the dryer.",
+    "details": "Dryer balls reduce drying time by getting in between items in the dryers and helping to separate them as the tumble.",
+    "fix": "Buy dryer balls.  These are the ones we use.",
+    "rank": "easy"
+  },
+  {
+    "name": "draftywindows",
+    "description": "Outside air comes in and warmed air escapes through leaky frames.",
+    "details": "10 to 25 percent of your heating costs can be caused by drafty windows.",
+    "debug": " On a blustery day, close all windows and exterior doors and the chimney-flue damper. Light a stick of incense, move it around the perimeter of each window, and watch for air that interrupts the delicate rise of smoke.",
+    "fix": "",
+    "rank": "popular"
+  }
+]
